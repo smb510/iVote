@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	
+	//takes the data-reamining value from the index.html.erb file in voting under views..change that to chan
+	//number of yes votes
 	var YES = $(".remaining").attr("data-remaining");
 	var MAX = YES;
 	var ballot = {};
